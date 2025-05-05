@@ -47,7 +47,7 @@ function App() {
         body: JSON.stringify({
           contents: [{
             parts: [{
-              text: `Respond to the user query: ${userQuestion}\n\nSOP Context: ${context}\n\nDo NOT use markdown format! Respond from the point of view of a super genius store manager. Only respond in plain text with NO formatting.`
+              text: `Respond to the user query: ${userQuestion}\n\nSOP Context: ${context}\n\nDo NOT use markdown format! Respond from the point of view of a super genius store manager. NO JOKES, NO MAKING UP RELATABLE STORIES, AND NO HALUCINTIONS. Only respond in plain text with NO formatting.`
             }]
           }]
         })
