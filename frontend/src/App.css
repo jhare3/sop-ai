@@ -210,3 +210,26 @@ body {
   background-color: #a0a0a0;
   cursor: not-allowed;
 }
+
+.sop-output {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  max-height: 400px;
+  overflow-y: auto;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.sop-output h2 {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  color: #2c3e50;
+}
+
+.sop-output p {
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
