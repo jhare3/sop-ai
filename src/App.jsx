@@ -8,7 +8,7 @@ function App() {
   const [sopData, setSopData] = useState(null); // Store SOP data
   const messagesEndRef = useRef(null);
 
-  const apiKey = "AIzaSyBPk4NYw_5enfX5-OJxYN14haaxFoQxiPM";  // Replace with your actual key
+  const apiKey = "AIzaSyAo5UToedOeYTWia-YIwHpoFDvtaCahZds";  // Replace with your actual key
 
   // Asynchronously load SOP data after the page has loaded
   useEffect(() => {
